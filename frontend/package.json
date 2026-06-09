@@ -1,0 +1,44 @@
+{
+  "name": "community-hub-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Community Hub social media platform",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.0",
+    "axios": "^1.4.0",
+    "redux": "^4.2.1",
+    "react-redux": "^8.1.1",
+    "redux-thunk": "^2.4.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "socket.io-client": "^4.6.1",
+    "tailwindcss": "^3.3.2",
+    "react-icons": "^4.11.0",
+    "moment": "^2.29.4",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-toastify": "^9.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": {
+    "production": ["&gt;0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
+}
